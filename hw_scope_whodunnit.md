@@ -219,8 +219,8 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
-Expected output: Syntax error
-Actual output: As expected
+Expected output: Lead Pipe
+Actual output: Candle Stick
 
 
 
@@ -241,8 +241,8 @@ const verdict = declareMurderer();
 console.log(verdict);
 ```
 
-Expected output:
-Actual output:
+Expected output: Mrs. Peacock
+Actual output: Professor Plum
 
 
 
