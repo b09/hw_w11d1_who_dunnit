@@ -28,6 +28,9 @@ const verdict = declareMurderer();
 console.log(verdict);
 ```
 
+Expected output: Miss Scarlet
+Actual output: As expected
+
 #### Episode 2
 
 ```js
@@ -45,6 +48,8 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Expected output: Error message because the const variable cannot be reassigned
+Actual output: As expected
 
 #### Episode 3
 
@@ -63,6 +68,9 @@ const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 ```
 
+Expected output: 1) Error due to reassignment of variable, 2) Professor Plum
+Actual output: 1) Mrs.Peacock, 2) Professor Plum
+
 #### Episode 4
 
 ```js
@@ -79,6 +87,11 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 ```
+
+Expected output: 1) Miss Scarlet, Professor Plum, Colonel Mustard,  2) Mrs. Peacock
+Actual output: As expected
+
+
 
 #### Episode 5
 
@@ -101,6 +114,10 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Expected output: Error, const variable cannot be reassigned
+Actual output: Revolver
+
+
 
 #### Episode 6
 
@@ -125,6 +142,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Expected output: Mrs. White
+Actual output: As expected
+
+
 
 #### Episode 7
 
@@ -155,6 +176,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Expected output: Mr. Green
+Actual output: As expected
+
+
 
 #### Episode 8
 
@@ -194,6 +219,10 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Expected output: Syntax error
+Actual output: As expected
+
+
 
 #### Episode 9
 
@@ -211,6 +240,11 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+
+Expected output:
+Actual output:
+
+
 
 ### Extensions
 
